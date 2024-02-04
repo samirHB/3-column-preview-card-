@@ -73,18 +73,23 @@ body {
   }
 }
 
-.card button:hover {
+.card button {
   background-color: hsl(0, 0%, 95%);
 }
 
-.card-1 button:hover {
+.card-1 button {
   color: hsl(31, 77%, 52%);
 }
 
-.card-2 button:hover {
+.card-2 button {
   color: hsl(184, 100%, 22%);
 }
 
-.card-3 button:hover {
+.card-3 button{
   color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
 }
