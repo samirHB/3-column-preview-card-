@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+}
+
+.card {
+  padding: 40px;
+  color: white;
+}
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card p {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+.card button {
+  background-color: transparent;
+  border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  width: 120px;
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  body {
+    padding: 20px;
+  }
+}
+
+.card button:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card-1 button:hover {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-2 button:hover {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-3 button:hover {
+  color: hsl(179, 100%, 13%);
+}
